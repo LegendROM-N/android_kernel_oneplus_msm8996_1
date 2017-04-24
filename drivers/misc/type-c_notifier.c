@@ -21,4 +21,3 @@ int bc_notifier_call_chain(unsigned long val)
 	return blocking_notifier_call_chain(&bc_notifier_list, val, NULL);
 }
 EXPORT_SYMBOL_GPL(bc_notifier_call_chain);
-

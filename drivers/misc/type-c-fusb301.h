@@ -47,4 +47,3 @@ enum fusb301_state{
 /*       Try Sink       */
 
 #endif
-
